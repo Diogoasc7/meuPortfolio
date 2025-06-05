@@ -237,7 +237,7 @@
                 </div>
 
                 <div class="formulario">
-                    <form>
+                    <form id="my-form" action="https://formspree.io/f/myzjzpbz" method="post">
                         <div class="form-group">
                             <div class="controls">
                                 <label for="nome">Nome:</label>
@@ -270,8 +270,10 @@
                         </div>
 
                         <div class="form-group m-auto">
-                            <button class="btn-form-send">Enviar</button>
+                            <button  class="btn-form-send" id="my-form-button">Enviar</button>
                         </div>
+
+                        <p id="my-form-status"></p>
                     </form>
                 </div>
             </div>
@@ -288,8 +290,9 @@
 <!-- JQuery Mask -->
 <script src="assets/js/jquery/jquery.mask.min.js"></script>
 <script src="assets/js/custom/jquery.mask.min.js"></script>
-
 <!-- OWL-Carousel-JS -->
 <script src="assets/js/owl-carrousel/owl.carousel.min.js"></script>
 <script src="assets/js/owl-carrousel/owl.start.function.js"></script>
+<!-- Integração Formulario -->
+<script src="assets/js/form/send.js"></script>
 </html>
