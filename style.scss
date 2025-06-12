@@ -246,22 +246,21 @@ html, body {
                                     font-size: 1.4rem;
                                 }
                             }
+                        }
+                        .descricao {
+                            display: flex;
+                            position: static;
+                            width: 100%;
+                            background-color: #22f8b1;
+                            padding: 10px;
+                            align-items: center;
+                            justify-content: center;
 
-                            .descricao {
-                                display: flex;
-                                position: static;
-                                width: 100%;
-                                background-color: #22f8b1;
-                                padding: 10px;
-                                align-items: center;
-                                justify-content: center;
-
-                                p {
-                                    color: config.$color-white;
-                                    font-size: 0.9rem;
-                                    text-align: center;
-                                    margin: 0;
-                                }
+                            p {
+                                color: config.$color-white;
+                                font-size: 0.9rem;
+                                text-align: center;
+                                margin: 0;
                             }
                         }
                     }

@@ -285,7 +285,7 @@ html, body {
   text-align: center;
   font-size: 1.4rem;
 }
-.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .descricao {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .descricao {
   display: flex;
   position: static;
   width: 100%;
@@ -294,7 +294,7 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .descricao p {
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .descricao p {
   color: #FFFFFF;
   font-size: 0.9rem;
   text-align: center;
